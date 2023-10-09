@@ -128,6 +128,9 @@
     text-transform: uppercase;
     text-align: center;
 }
+.finish .finish_header {
+    color: #ffffff;
+}
 
 .waiting .waiting_divider, .finish .finish_divider  {
     width: 217px;
@@ -212,7 +215,13 @@
 .finish {
     min-height: 447px;
     padding: 86px 0 79px 0;
-    background: url(../img/);
+    background: url(../img/second_bg.jpg) center center/cover no-repeat;
+}
 
 
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+    
 }
