@@ -4,6 +4,10 @@
     padding: 0; 
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     position: relative;
     width: 1140px;
@@ -23,7 +27,7 @@
 
 .logo .logo_text {
     color: #ffffff;
-    font-family: Roboto, sans-serif; 
+    /* font-family: Roboto, sans-serif; */ 
     font-size: 15px;
     font-weight: 500;
     line-height: 24px;
@@ -38,30 +42,30 @@
 
 .title {
     color: #f9bf3b;
-    font-family: Roboto-Black ,sans-serif;   
+   /*  font-family: 'Roboto-Black' ,sans-serif;  */  
     font-size: 41px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 24px;
     text-transform: uppercase;
     text-align: center;
 
 }
 
-    h2{
+h2{
     margin-top: 30px;
 
 }
 .simple .title_big {
     color: #ffffff;
-    font-family: Roboto-Black ,sans-serif;
+    /* font-family: Roboto-Black ,sans-serif; */
     font-size: 80px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
     text-align: center;
     margin-top: 21px;
 }
 
-   .promo .promo_text {
+.promo .promo_text {
     padding: 0 13px;
     margin-top: 23px;
     color: #FFFFFF;
@@ -73,13 +77,13 @@
     text-align: center;
 }
 
-    .promo .promo_text span {
+.promo .promo_text span {
     color: #F9BF3B;
     /* font-family: 'Roboto-Bold'; */
     font-weight: 700;
 }
 
-.promo .promo_btn, .gift .gift_btn {
+    .promo .promo_btn, .gift .gift_btn {
     display: block;
     margin: 0px auto;
     margin-top: 73px;
@@ -105,7 +109,7 @@
 
 .more .more_text {
     color: #ffffff;
-    font-family: Roboto-Thin, sans-serif;
+    /* font-family: Roboto-Thin, sans-serif; */
     font-size: 15px;
     font-weight: 400;
     text-transform: uppercase;
@@ -126,7 +130,7 @@
 
 .waiting .waiting_header, .finish .finish_header {
     color: #252525;
-    font-family: Roboto, sans-serif;
+    /* font-family: Roboto, sans-serif; */
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
@@ -173,7 +177,7 @@
 .waiting .waiting_wraper .waiting_item .waiting_descr {
     margin-top: 33px;
     color: #4a4a4a;
-    font-family: Roboto, sans-serif;
+    /* font-family: Roboto, sans-serif; */
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
@@ -187,7 +191,7 @@
 .optimization .optimization_header {
     margin-left: 391px;
     color: #299cbd;
-   font-family: "Roboto-Black", sans-serif;
+  /*   font-family: "Roboto-Bold", sans-serif; */
     font-size: 28px;
     font-weight: 700;
     text-transform: uppercase;
@@ -197,11 +201,11 @@
     margin-top: 25px;
     margin-left: 391px;
     color: #4a4a4a;
-   /font-family: Roboto, sans-serif; 
+    /* font-family: Roboto, sans-serif;  */
     font-size: 17px;
     font-weight: 300;
     line-height: 27px;
-    /font-family: Roboto Light, sans-serif; 
+    font-family: Roboto Light, sans-serif; 
     font-weight: 300;
 }
 .optimization .optimization_text span {
@@ -268,7 +272,7 @@
 .gift .gift_text {
     margin-top: 42px;
     color: #252525;
-    font-family: Roboto, sans-serif;
+    /* font-family: Roboto, sans-serif; */
     font-size: 30px;
     font-weight: 400;
     line-height: 43px;
@@ -289,7 +293,7 @@
 .first .first_text {
     margin-top: 37px;
     color: #252525;
-    font-family: Roboto, sans-serif;
+    /* font-family: Roboto, sans-serif; */
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
@@ -299,7 +303,7 @@
 .first .date {
     margin-top: 30px;
     color: #299cbd;
-    font-family: Roboto-Black, sans-serif; 
+    /* font-family: Roboto-Black, sans-serif;  */
     font-size: 36px;
     font-weight: 700;
     text-transform: uppercase;
@@ -310,7 +314,7 @@
     margin-top: 25px;
     color: #4a4a4a;
     font-size: 23px;
-    font-weight: 700;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -325,7 +329,7 @@ footer {
     width: 377px;
     text-align: center;
     color: #888888;
-    font-family: Roboto, sans-serif;
+    /* font-family: Roboto, sans-serif; */
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
@@ -333,7 +337,7 @@ footer {
 
 footer a {
     color: #888888;
-    font-family: Roboto, sans-serif;
+   /*  font-family: Roboto, sans-serif; */
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
